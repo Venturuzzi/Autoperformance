@@ -1,0 +1,28 @@
+/* Main */
+
+
+
+.mensaje1 { 
+text-align: center;
+text-decoration: double;
+border: solid 4px black;
+background-color: grey;
+}
+
+#contactoCliente   { 
+display: flex;
+flex-direction: column;
+padding: 5vw;
+border: solid 4px black;
+align-items: center;
+font-size: 135%;
+}
+
+
+#contactoCliente label,.email,.tel,.promo,.boton,.nombreApellido,.textCliente {
+
+    background: none;
+    font-style: initial;
+
+}
+
