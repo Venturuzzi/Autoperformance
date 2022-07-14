@@ -1,31 +1,19 @@
-/* Main */
+$blue: #B5E6F5;
+$red: #FFB2AD;
+$yellow: #ADC9EA;
+$green: #D8F0D4;
 
+$colores: (
+    verde: $green,
+    azul: $blue,
+    rojo:$red,
+    amarillo:$yellow,
+);
 
 iframe:hover {
     transform: scale(2);
     transition-duration: 2s; }
   
-  /*
-  .lema {
-    animation-name: lemamovimiento;
-    animation-duration: 5s;
-    transform: translatey(4vh); }
-  
-  @keyframes lemamovimiento {
-    25% {
-      transform: scale(2); }
-    50% {
-      text-decoration: red; } }
-  .titlema {
-    transform: scale(2.5);
-    text-align: center; }
-  */
-  
-  /* Footer */
-  footer {
-    position: relative;
-    background-color: bisque;
-    top: 13vw; }
-  
-  
-  
+main p {
+  color: map-get($colores, verde);
+}

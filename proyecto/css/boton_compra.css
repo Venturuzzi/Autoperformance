@@ -6,9 +6,11 @@
   background: none;
   background-color: #a2b5bb;
   color: white;
-  width: 6rem;
-  height: 3rem;
-}
+  width: 5rem;
+  height: 2.5rem; }
+
+.botonCompras {
+  background-color: #d4c29b; }
 
 .botonCompras:hover {
   font-weight: bold;
@@ -18,5 +20,5 @@
   background: none;
   background-color: #eb1d36;
   color: white;
-  width: 7rem;
+  width: 6rem;
   height: 3rem; }

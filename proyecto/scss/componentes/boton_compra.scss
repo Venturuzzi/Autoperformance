@@ -1,14 +1,18 @@
-.botonCompras {
-    font-weight: bold;
-    border-radius: 10%;
-    font-size: 1rem;
-    padding: 5px;
-    background: none;
-    background-color: rgb(162, 181, 187);
-    color: white; 
-    width: 4rem;
-    height: 1.5rem;
-  }
+%btn {
+  font-weight: bold;
+  border-radius: 10%;
+  font-size: 1rem;
+  padding: 5px;
+  background: none;
+  background-color: #a2b5bb;
+  color: white;
+  width: 5rem;
+  height: 2.5rem; }
+
+.botonCompras{
+  @extend %btn;
+  background-color: #d4c29b ;
+}
   .botonCompras:hover {
     font-weight: bold;
     border-radius: 10%;
