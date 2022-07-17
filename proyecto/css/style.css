@@ -25,21 +25,21 @@
   padding: 2vw;
   font-size: 1vw; }
 
-  @mixin container($ancho, $alto, $color) {
-    width: $ancho;
-    height: $alto;
-    background-color: $color;
-    border-radius: 5%;
-    text-align: center;
-    padding: 2vw;
-    font-size: 1vw;
-  } 
-  
-  .tarjetaPromo{
-@include container(25vw, 35vw, #CFD2CF)
+  .ofertasTitulo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    font-size: 2rem;
+      }
+
+  .promociones {
+  font-size: 3rem;
+  text-decoration: underline;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
   }
-  .tarjetaIng{
-    @include container(25vw,35vw , #CFD2CF)
+
+  .ingresos {
+    font-size: 3rem;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-  
