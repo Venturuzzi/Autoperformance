@@ -49,99 +49,88 @@
   </header>
     <!-- Main -->
     
-<main class="container">
+<main>
 
-    <h1 class="col-12">Dejanos tu mensaje</h1>
-    
+  <div class="container">
+    <div class="row">
+         <div class="col-md-12">
+            
+                <form class="form-horizontal">
+                    
+                        <h1 class="text-center header">Contactenos</h1>
 
-<section id="contactoCliente">
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="nombre"  type="text" placeholder="Nombre" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="apellido" type="text" placeholder="Apellido" class="form-control">
+                            </div>
+                        </div>
 
-   <form >
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="email"  type="text" placeholder="Correo electronico" class="form-control">
+                            </div>
+                        </div>
 
-    <label for="nombre-apellido">Nombre y Apellido</label>
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="telefono"  type="text" placeholder="Telefono" class="form-control">
+                            </div>
+                        </div>
 
-    <div class="nombreApellido">
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <textarea class="form-control" id="mensaje"  placeholder="Ingrese su mensaje" rows="7"></textarea>
+                            </div>
+                        </div>
 
-      
-      <input type="text" id="nombre-apellido" required>
-    
-    </div>
-<br>
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                            </div>
+                        </div>
+                </form>
+            </div>
+            </div>
+            </div>
 
-    <label for="mensaje">Tu Mensaje</label>
-
-    <div class="textCliente">
-
-      
-      <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
-    
-    </div>
-
-    <label for="correo">Email</label>
-    
-    <div class="email">
-
-      <input type="email" id="correo" placeholder="ejemplo@gmail.com">
-    
-    </div>
-
-    <label for="telefono">Telefono</label>
-
-    <div class="tel">
-
-      
-      <input type="tel" id="telefono" placeholder="+54 9 351-653654" required>
-    
-    </div>
-
-     <div class="promo">
-
-      <label for="promo">Deseas adherirte al envio de promociones y descuentos exclusivos</label>
-      <input type="checkbox" id="promo">
-     
-    </div>
-
-    
-    <div class="boton">
-
-      <input type="submit" value="Enviar Mensaje" class="boton">
-    
-    </div>
-
-   </form>
-
-</section>
-
-<br>
 </main>
-
 <!-- Footer -->
 
 <footer>
-  <ul class="redesIconos">
-    <img src="./img/logo_pagina.png" alt="Autoperformance">
-
-    <p class="firma"> 
-      <i class="firma-pie"></i>
-      Pasion por la velocidad... 
-  </p>
-      <li>
-          <a target="_blank" href="https://www.facebook.com/" >
-            <img src="./img/logo_facebook.png" alt="facebook">
-          </a>
-      </li>
-      <li>
-          <a target="_blank" href="https://www.instagram.com/">
-            <img src="./img/logo_instagram.png" alt="instagram">
-          </a>
-      </li>
-      <li>
-          <a target="_blank" href="https://www.whatsapp.com/?lang=es">
-              <img src="./img/logo_whatsapp.png" alt="whatsapp">
-          </a>
-      </li>
-  </ul>
-  
+  <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-md-6">
+        <h6 class="text-muted lead">CONTACTO:</h6>
+        <h6 class="text-muted">
+            Av. Velez Sarsfield N° 515 - Local 13<br>
+            Cordoba Capital<br>
+            Teléfono: 4556659<br> <br>
+            PASION POR LA VELOCIDAD... 
+       </h6>
+    </div>
+    <div class="col-xs-12 col-md-6">
+    <div class="pull-right">
+        <h6 class="text-muted lead">ENCUENTRANOS EN LAS REDES</h6>
+    <div class="redes-footer">
+                  <a target="_blank" href="https://www.facebook.com/"><img src="./img/logo_facebook.png"></a>
+                  <a target="_blank" href="https://instagram.com/"><img src="./img/logo_instagram.png"></a>
+                  <a target="_blank" href="https://www.whatsapp.com/"><img src="./img/logo_whatsapp.png"></a>
+        </div>
+        </div>
+        <div class="row"> <p class="text-muted small text-right">Venturuzzi Franco Nicolas<br> Todos los derechos reservados.</p></div>
+    </div>
+  </div>  
+</div>
 </footer>
   <script src="./js/bootstrap.js"></script>
 </body>

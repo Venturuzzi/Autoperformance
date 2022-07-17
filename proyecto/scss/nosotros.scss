@@ -9,11 +9,6 @@ $colores: (
     rojo:$red,
     amarillo:$yellow,
 );
-
-iframe:hover {
-    transform: scale(2);
-    transition-duration: 2s; }
-  
 main p {
   color: map-get($colores, verde);
 }

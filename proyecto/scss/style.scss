@@ -1,17 +1,19 @@
-/* Seccion Ingreso y Ofertas */
 
-  
-  .ofertasImg {
-    width: 25rem;
-    height: 25rem;
-  }
-  
-  .col-4 {
-    border: solid 4px black;
-    border-radius: 10%;
+  @mixin container($ancho, $alto, $color) {
+    width: $ancho;
+    height: $alto;
+    background-color: $color;
+    border-radius: 5%;
     text-align: center;
-    padding: 20px;
-    background: gray;
-  }
+    padding: 2vw;
+    font-size: 1vw;
+  } 
   
+  .tarjetaPromo{
+@include container(25vw, 35vw, #CFD2CF)
+
+  }
+  .tarjetaIng{
+    @include container(25vw,35vw , #CFD2CF)
+  }
   
